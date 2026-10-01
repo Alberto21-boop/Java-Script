@@ -23,6 +23,5 @@ class humano {
 }
 
 const pessoa = new humano('Alberto', 45);
-const apresentacao = new humano()
 
 console.log(pessoa.apresentarPessoa(pessoa))
