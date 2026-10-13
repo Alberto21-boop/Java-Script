@@ -41,4 +41,6 @@ class Carro extends Veiculo {
 }
 
 const CarroCompleto = new Carro("Civic", 140, "Flex")
+const Civic = new Carro("Civic G9", 140, "Combustivel: Flex")
 console.log(CarroCompleto.detalhes())
+console.log(Civic.detalhes())
